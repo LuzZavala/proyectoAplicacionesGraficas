@@ -1,0 +1,43 @@
+.containerForm{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'poppins', sans-serif;   
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.formInfo{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+.formInfo h3{
+    color: #555;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.formInfo input, .formInfo textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background-color: white;
+    font-size: 16px;
+}
+.formInfo button{
+    padding: 15px;
+    background-color: white;
+    color: brown;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
